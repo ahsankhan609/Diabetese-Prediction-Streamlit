@@ -34,14 +34,14 @@ def main():
   st.title('Diabetes WebApp - Streamlit')
 
   # getting the data from user
-  Pregnancies = st.text_input('Number of Pregnencies')
-  Glucose = st.text_input('glucose')
-  BloodPressure = st.text_input('BP')
-  SkinThickness = st.text_input('SKIn thickness')
-  Insulin = st.text_input('insulin')
-  BMI = st.text_input('bmi')
-  DiabetesPedigreeFunction = st.text_input('dibfunction')
-  Age = st.text_input('enter age')
+  Pregnancies = st.text_input('Number of times pregnant')
+  Glucose = st.text_input('Plasma glucose concentration a 2 hours in an oral glucose tolerance test')
+  BloodPressure = st.text_input('Diastolic blood pressure (mm Hg)')
+  SkinThickness = st.text_input('Triceps skin fold thickness (mm)')
+  Insulin = st.text_input('2-Hour serum insulin (mu U/ml)')
+  BMI = st.text_input('Body mass index (weight in kg/(height in m)^2)')
+  DiabetesPedigreeFunction = st.text_input('Diabetes pedigree function')
+  Age = st.text_input('Age (years)')
 
   #code for prediction
   diagnosis = ''
